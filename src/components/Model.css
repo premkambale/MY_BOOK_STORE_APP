@@ -1,0 +1,94 @@
+/* .overLay overLay_inner close innerBox info distription */
+
+.overLay {
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overLay_inner {
+    background: #939393;
+    width: 700px;
+    height: 550px;
+    padding: 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.overLay_inner .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.overLay_inner .innerBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.overLay_inner .innerBox img {
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+.overLay_inner .innerBox .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.overLay_inner .innerBox h1 {
+    font-size: calc(1.80rem + 1.5vw);
+    color: black;
+    font-weight: bold;
+    text-shadow: 3px 2px 4px black;
+}
+
+.overLay_inner .innerBox h3 {
+    margin-top: 10px;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.overLay_inner .innerBox h4 {
+    color: black;
+    font-size: 1.6rem;
+}
+
+.overLay_inner .innerBox button {
+    outline: none;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #1d1f21;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+}
+
+.overLay_inner .distription {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 13px;
+}
